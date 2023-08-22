@@ -7,6 +7,7 @@
 #define SPI2
 #define SPI2_BUFF
 
+#define SPI_FLAG
 
 #define spi_reg_num 8
 

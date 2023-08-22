@@ -1,6 +1,6 @@
 
-#ifndef SPI_H
-#define SPI_H
+#ifndef PWM_H
+#define PWM_H
 
 #define SPI1
 #define SPI1_BUFF
@@ -12,7 +12,8 @@
 
 
 extern int spi_reg[spi_reg_num];
-void init_spi();
+
+void init_pwm();
 void write_spi();
 int read_spi();
 
