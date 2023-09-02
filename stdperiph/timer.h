@@ -1,10 +1,9 @@
 
-#ifndef PWM_H
-#define PWM_H
+#ifndef TIMER_H
+#define TIMER_H
 
 
-void init_PWM();
-void update_PWM();
+void init_timer();
 int calculate(int sys_clk, int freq, int register);
 
 
